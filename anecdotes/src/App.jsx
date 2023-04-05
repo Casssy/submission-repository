@@ -21,8 +21,7 @@ const App=()=>{
     const copy=[...votes];
     copy[selected] += 1;
     setVotes(copy) 
-    // console.log(votes)   
-    // console.log(votes.indexOf(Math.max(...votes)))
+    
   }
   
 
